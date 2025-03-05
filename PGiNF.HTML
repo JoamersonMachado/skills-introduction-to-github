@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pix Card Ferdan</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: url('Site F..png') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            position: relative;
+        }
+        .container {
+            display: flex;
+            max-width: 900px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        .right {
+            flex: 1;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+        }
+        .right h1 {
+            color: #2F4F4F;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        .right p {
+            color: #666;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .button {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            background: #2F4F4F;
+            color: white;
+            text-align: center;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+        .button:hover {
+            background: #1E3636;
+        }
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Imagem</title>
+</head>
+<body>
+    <img src="Site F..png" alt="C:\Users\joame\OneDrive\Documents">
+</body>
+</html>
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="right">
+            <h1>Clique para acessar</h1>
+            <a href="https://maps.app.goo.gl/fie5oeqQg6RFdseK8" class="button">Ver Localização</a>
+            <a href="https://www.ferdan.net/" class="button">Site Oficial</a>
+            <a href="mailto:vendas@ferdan.net" class="button">E-mail</a>
+            <a href="https://www.instagram.com/ferdan_juazeiro/" class="button">Instagram</a>
+            <a href="https://api.whatsapp.com/send?phone=557436130401" class="button">WhatsApp</a>
+        </div>
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Botão à Direita</title>
+  <style>
+      /* Estilo do botão */
+      button {
+          background-color: #4CAF50;
+          color: white;
+          padding: 10px 20px;
+          font-size: 16px;
+          border: none;
+          border-radius: 8px;
+          cursor: pointer;
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+          position: absolute; /* Posicionamento livre */
+          top: 50%; /* Centraliza verticalmente */
+          right: 10%; /* Define a posição à direita (10% da margem da direita) */
+          transform: translateY(-50%); /* Mantém o botão centralizado verticalmente */
+      }
+
+      /* Efeito ao passar o mouse */
+      button:hover {
+          background-color: #45a049;
+      }
+  </style>
+  <script>
+      function copiarTexto() {
+          const texto = "7777777777";
+          const elementoTemporário = document.createElement("textarea");
+          elementoTemporário.value = texto;
+          document.body.appendChild(elementoTemporário);
+          elementoTemporário.select();
+          document.execCommand("copy");
+          document.body.removeChild(elementoTemporário);
+          alert("Número copiado: " + texto);
+      }
+  </script>
+</head>
+<body>
+  <h1 style="text-align: center;">
+  <button onclick="copiarTexto()">Clique para copiar</button>
+</body>
+</html>
+
